@@ -1,0 +1,8 @@
+model_name: BAAI/bge-m3
+max_length: 512
+chunk_tokens: 220
+chunk_stride: 60
+index_out: bge_m3_ip.index
+meta_out:  bge_m3_meta.jsonl
+pdf_dir:   ./examples/pdfs
+topk: 6
